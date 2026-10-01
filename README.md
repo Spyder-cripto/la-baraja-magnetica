@@ -18,7 +18,7 @@ tarjetas ilustradas con todas las reglas.
 - **Contador de pasos:** empieza en 0 con una sola cifra y crece (decenas a los 10, centenas a los 100, millares a los 1000).
 - Dentro del juego, el botón **«Cómo se juega»** abre las tarjetas con las reglas y las piezas.
 
-**Récord conocido: 578 pasos.** ¿Te atreves?
+**El reto:** llevar cada caja a su sitio con los menos pasos posibles.
 
 ## Créditos
 - Recreación, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026
