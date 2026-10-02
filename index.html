@@ -488,6 +488,8 @@ a {
 .ch-panel strong.ch-cian{color:var(--ch-cian)}
 .ch-panel strong.ch-oro{color:var(--ch-oro)}
 .ch-tecla{display:block;margin:0 0 6px}
+.ch-icono{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;border:2px solid var(--ch-borde);color:var(--ch-marino);background:#fff;vertical-align:middle;margin-right:2px}
+.ch-icono svg{width:16px;height:16px}
 .ch-panel kbd{display:inline-block;min-width:1.9em;margin-right:4px;padding:.2em .35em;border:2px solid var(--ch-borde);border-bottom-width:4px;border-radius:6px;background:#fff;color:var(--ch-marino);font:11px/1.3 var(--ch-pixel);text-align:center}
 .ch-panel kbd.ch-flecha{font:800 15px/1.1 system-ui,'Segoe UI Symbol','Apple Symbols',sans-serif;padding:.12em .35em}
 .ch-pie{margin-top:26px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;color:var(--ch-tenue);font-size:14px;line-height:1.6}
@@ -20817,6 +20819,11 @@ function Animatable(key, increment, update) {
 <div class="ch-lamina"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAwCAYAAAChS3wfAAABCElEQVR42u2YsQ1CMQxEMwQ9BVvwx2AERM8UNJTsQMMiTMAiDGCUEiR+PjHR5eIrrku+vp8c2Xfpcr1brXaHs6HvrzaTS+l4ulmt8g+g7+ci1tt9lQRgZAD2fLwpFIDPor9BEAABmCzljzDLDaD3OV860/QJ9NDipTMCIAAN9wBmAH/ZBAUgAoAR9gCXHWb38/R5gLeF6e2wAMwUMDfDSwBo8oAlBfwKgMoOt+gAAWDKA+AAevTz3TwB9CorAJEBLJ3j9HlA15ugAEQAwO7n4XkAugB4HoBuYbgdFgCwn4fnAWg/D7fD6FVWANB5AD0Adj8Pd4MCIADYOQ7PA4beBAUgAgB2P+/VC98hFmY5cC4fAAAAAElFTkSuQmCC" alt="El contador crece: empieza en 0 y gana cifras a los 10 y a los 100 pasos" width="256" height="192"></div>
 <p>Cada movimiento suma <strong>un paso</strong>; chocar no cuenta, pulsar el interruptor tampoco, y deshacer lo descuenta. El contador, abajo, <strong>empieza en 0 con una sola cifra</strong> y crece: las decenas asoman a los 10 pasos, las centenas a los 100 y los millares a los 1000. El reto: llevar cada caja a su sitio <strong>con los menos pasos posibles</strong>.</p>
 </article>
+<article class="ch-tarjeta">
+<h3><img class="ch-ico" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdUlEQVR42mO4f2bZf0owA4j4/OIC2RhuwNNZM/5/v3ONaBrDAJAgsRhkCE4X3HDzAmN0TejiWF0AU4SuGF0cpwvQFeLCRLsAF6adC4hxBcFYwGcIcqwQTAf4NBN0Aa64R3fByzv7UF1ASnLGcAHMRLIzE7kYAEJ5Q44pdcRNAAAAAElFTkSuQmCC" alt=""><span><span class="ch-num">9</span> Las ayudas</span></h3>
+<div class="ch-lamina"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAABIklEQVR42tWWPQrCQBCFcw/xBBY5gL2Fra0nsPE6Itp6DPEAFlbBImAlaK3GcmUWVtZh3mb/jFi8JCwMvC9vd2aL036j/lkFPW6Xg+rNhkGiGpKpj1VqvQYgQ+V6GiQDkQvgvFyoZ115vzsF6A8m+n2ttxCATPmKILwA7qrRCgWwjZL5cl69IdoSOI7GWtw0X28FMOYRhG8CBgBB2AkYk9wsX/dKIAaADEoyABKEnQA3iuRMwDaMviUAMrbaPaAQhCsBJJgA/+tICMA26ZIEkCWBFIDULYT2u2TeeQZit1DqITZdyAVhd6WvtlEJoK2NorYpmc/WhajfhwwyaV5ICaDezxOg+k4msTSBpQRCrhMfCeS6zLmM+lzmYuqLX98mU+tfUhFFB5E58msAAAAASUVORK5CYII=" alt="Un trébol tapa una diana de corazón; con el ojo, la caja desaparece y se ve la diana" width="192" height="64"></div>
+<p><span class="ch-tecla"><span class="ch-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12c2.6-4.6 6-7 10-7s7.4 2.4 10 7c-2.6 4.6-6 7-10 7s-7.4-2.4-10-7z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg></span> <strong>El ojo</strong>: pasa el ratón por encima (en el móvil, mantén el dedo) y desaparecen las cajas y el mozo: verás lo que tapan.</span><span class="ch-tecla"><span class="ch-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 3.5v5.2h-5.2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span> <strong>Reiniciar</strong>: empieza de nuevo.</span><span class="ch-tecla"><span class="ch-icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6c0 .8.9 1.3 1.6.8l10.2-6.8a1 1 0 0 0 0-1.6L9.6 4.4C8.9 3.9 8 4.4 8 5.2z" fill="currentColor"/></svg></span> <strong>La pista</strong>: cada pulsación da <strong>un movimiento</strong> hacia la solución; pulsándola las veces necesarias, el puzzle queda resuelto.</span><span class="ch-tecla">Están arriba a la derecha.</span></p>
+</article>
 </div>
 <footer class="ch-pie">
 <p>Recreación, arte 16-bit y tarjetas: <strong>Spider</strong> (Fali + Claude), 2026. Nivel original de kjs722 («Impossible #1», sokobanonline.com, 2019). Motor: <a href="https://github.com/david-pfx/PuzzleScriptNext" target="_blank" rel="noopener">PuzzleScript Next</a>.</p>
@@ -20862,6 +20869,302 @@ function Animatable(key, increment, update) {
   document.addEventListener('psplusGameStarted', function(){ if (!vistasDesdeLaPortada) { vistasDesdeLaPortada = true; abrir(); } });
   abrir();
 })();
+</script>
+
+<script>
+window.__AYUDAS_ICONOS = {"ojo":"<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M2 12c2.6-4.6 6-7 10-7s7.4 2.4 10 7c-2.6 4.6-6 7-10 7s-7.4-2.4-10-7z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"12\" cy=\"12\" r=\"3.6\" fill=\"currentColor\"/></svg>","reiniciar":"<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19.5 12a7.5 7.5 0 1 1-2.2-5.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M20 3.5v5.2h-5.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>","pista":"<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.2v13.6c0 .8.9 1.3 1.6.8l10.2-6.8a1 1 0 0 0 0-1.6L9.6 4.4C8.9 3.9 8 4.4 8 5.2z\" fill=\"currentColor\"/></svg>"};
+window.__AYUDAS = { cinta: "DLLLURUUDDLDLLURDRURURRDLDLLURDRULLLLDRRURUUULDRDRRUULDLLURUUDRRDLDLLURDRULLLLDRRURUULDURUUUDDRRUULRDDLLLDLLURRURRDDLUDLURRRRDLLUUURDLDDRRULDLULLUURUDLDDRDDLUUULLDRURDRRURRDLLLLULLDRRURUUUULDRDRDRRULULRDDLULLUURDLDDRDDLUURRURUULDLLURUDDDLUDLLURRDRRURRDLLLLDDRULUULLDRURRUUUUULDRDLRRDRRULLRUULDLLDDRDDLUURRURUULDLLURDDDRUDLLDDRULUURRDLURRRDLLULLDLLURRRUULDRDRDRRULULLRRDDLULLDLLURRRUULDRDLRRDRRULLRUULDLLDDRDDLUURRURUULDLLURUDDDLUDRRURRDLLULLDLLURRRUUUULDRDRDRRULULRDDLULLDLLURRRRDLLDDRUULULLDRURDRRULLDRRRRULLRUULDRDDLLLUURRURDLLLDDRRUDLLUURRDDLDDLUURRUULDDRRRULLUURDLLLURDRDDRRULDLLUDLUDDDRULULLUR" };
+</script>
+<script>
+/* ayudas.js — OJO, REINICIAR y PISTA para las webs de la serie hechas con el Creador (PuzzleScript Next).
+ * Idea de Fali (2-oct-2026), para «La Baraja Magnética» y los puzzles siguientes:
+ *   - OJO: mientras el ratón está encima (en el móvil, mientras el dedo está apoyado), las cajas y el mozo NO se
+ *     dibujan: se ve lo que tapan (dianas, vías...). Solo cambia el dibujo; la partida no se toca.
+ *   - REINICIAR: como la tecla R.
+ *   - PISTA (botón de «play»): cada pulsación da UN SOLO movimiento hacia la solución; pulsándola las veces
+ *     necesarias, el puzzle queda resuelto. Sigue una solución guardada (window.__AYUDAS.cinta). Si el jugador se ha
+ *     salido de ella, busca la vuelta más corta al camino; si no la encuentra (atasco), deshace un movimiento.
+ * El modelo de reglas (empujar una caja, imanes que clavan, interruptor que los gira sin contar paso, hielo y vías
+ * en T o rectas) es el de la búsqueda exacta en C, comprobado contra el motor real con las cintas del diferencial.
+ * En Node exporta el núcleo (para las pruebas); en el navegador monta la barra de botones.
+ */
+(function () {
+  'use strict';
+  // ---------------------------------------------------------------- núcleo: reglas (sin navegador)
+  const DX = [0, 0, -1, 1], DY = [-1, 1, 0, 0];                 // U D L R
+  const HORARIO = [0, 3, 1, 2];                                  // índice horario (arriba, derecha, abajo, izquierda) -> dir
+  const ORDEN_PALOS = 'HCDSAYN';
+
+  /* desc = { W, H, celdas: [ { macizo, hielo, via, meta, iman, interruptor } ] }  (índice de celda = y*W + x)
+     via: null o [bits de «no entra moviéndose en d», bits de «no sale moviéndose en d»]
+     iman: null o su dirección horaria CON EL GIRO 0 */
+  function crearModelo(desc) {
+    const W = desc.W, H = desc.H, n = W * H;
+    const M = { W, H, n, macizo: new Uint8Array(n), hielo: new Uint8Array(n), noEntra: new Uint8Array(n), noSale: new Uint8Array(n),
+      meta: new Array(n).fill(''), interruptor: -1, imanes: [], clavada: [0, 1, 2, 3].map(() => new Uint8Array(n)), vec: new Int16Array(n * 4) };
+    desc.celdas.forEach((k, c) => {
+      if (k.macizo) M.macizo[c] = 1;
+      if (k.hielo) M.hielo[c] = 1;
+      if (k.via) { M.noEntra[c] = k.via[0]; M.noSale[c] = k.via[1]; }
+      if (k.meta) M.meta[c] = k.meta;
+      if (k.interruptor) M.interruptor = c;
+      if (k.iman != null) M.imanes.push({ c, ini: k.iman });
+    });
+    for (let c = 0; c < n; c++) for (let d = 0; d < 4; d++) {
+      const x = c % W + DX[d], y = (c / W | 0) + DY[d];
+      M.vec[c * 4 + d] = (x < 0 || y < 0 || x >= W || y >= H) ? -1 : y * W + x;
+    }
+    for (let g = 0; g < 4; g++) for (const im of M.imanes) {
+      const t = M.vec[im.c * 4 + HORARIO[(im.ini + g) % 4]];
+      if (t >= 0 && !M.macizo[t]) M.clavada[g][t] = 1;
+    }
+    return M;
+  }
+  const cajaEn = (e, c) => e.cajas.indexOf(c);
+  /* e = { p, cajas: [celdas], palos: [palo de cada caja], rot }. Devuelve [r, e2]: r 0 choca, 1 anda, 2 empuja,
+     9 pulsa el interruptor (gira los imanes; el mozo no se mueve y no cuenta paso). */
+  function mover(M, e, d) {
+    const t = M.vec[e.p * 4 + d];
+    if (t < 0) return [0, e];
+    if (t === M.interruptor) return [9, { p: e.p, cajas: e.cajas, palos: e.palos, rot: (e.rot + 1) % 4 }];
+    if (M.macizo[t]) return [0, e];
+    const i = cajaEn(e, t);
+    if (i < 0) {                                                   // andar (y deslizar si entra en hielo)
+      let pos = t;
+      while (M.hielo[pos]) {
+        const v = M.vec[pos * 4 + d];
+        if (v < 0 || v === M.interruptor || M.macizo[v] || cajaEn(e, v) >= 0) break;
+        pos = v;
+      }
+      return [1, { p: pos, cajas: e.cajas, palos: e.palos, rot: e.rot }];
+    }
+    if ((M.noSale[t] >> d) & 1) return [0, e];                     // vía: por ahí no sale
+    if (M.clavada[e.rot][t]) return [0, e];                        // imán: caja clavada
+    const u = M.vec[t * 4 + d];
+    if (u < 0 || u === M.interruptor || M.macizo[u] || cajaEn(e, u) >= 0 || ((M.noEntra[u] >> d) & 1)) return [0, e];
+    let pos = u;
+    while (M.hielo[pos] && !M.clavada[e.rot][pos]) {              // la caja desliza (y se queda clavada si la atrapa un imán)
+      const v = M.vec[pos * 4 + d];
+      if (v < 0 || v === t || v === M.interruptor || M.macizo[v] || cajaEn(e, v) >= 0 || ((M.noSale[pos] >> d) & 1) || ((M.noEntra[v] >> d) & 1)) break;
+      pos = v;
+    }
+    const cajas = e.cajas.slice(); cajas[i] = pos;
+    return [2, { p: t, cajas, palos: e.palos, rot: e.rot }];       // quien empuja no desliza
+  }
+  function clave(e) {
+    const por = {};
+    e.cajas.forEach((c, i) => { (por[e.palos[i]] = por[e.palos[i]] || []).push(c); });
+    let s = e.p + '|';
+    for (const p of ORDEN_PALOS) if (por[p]) s += p + por[p].sort((a, b) => a - b).join(',');
+    return s + '|' + e.rot;
+  }
+  function gana(M, e) {
+    for (let c = 0; c < M.n; c++) if (M.meta[c]) { const i = cajaEn(e, c); if (i < 0 || e.palos[i] !== M.meta[c]) return false; }
+    return true;
+  }
+  /* La vuelta más corta (en teclas) desde e hasta un estado del camino; null si no la hay dentro del límite. */
+  function buscarVuelta(M, e, camino, limite, msMax) {
+    const t0 = Date.now(), k0 = clave(e);
+    if (camino.has(k0)) return [];
+    const padre = new Map([[k0, null]]);
+    let capa = [e];
+    while (capa.length) {
+      const sig = [];
+      for (const x of capa) {
+        const kx = clave(x);
+        for (let d = 0; d < 4; d++) {
+          const [r, y] = mover(M, x, d);
+          if (!r) continue;
+          const ky = clave(y);
+          if (padre.has(ky)) continue;
+          padre.set(ky, [kx, d]);
+          if (camino.has(ky)) {                                    // reconstruir: primera tecla de la vuelta
+            const ruta = [];
+            for (let k = ky; padre.get(k); k = padre.get(k)[0]) ruta.push(padre.get(k)[1]);
+            return ruta.reverse();
+          }
+          sig.push(y);
+        }
+        if (padre.size > limite || Date.now() - t0 > msMax) return null;
+      }
+      capa = sig;
+    }
+    return null;
+  }
+  const NUCLEO = { crearModelo, mover, clave, gana, buscarVuelta, HORARIO, ORDEN_PALOS };
+  if (typeof module !== 'undefined' && module.exports) { module.exports = NUCLEO; }
+  if (typeof window === 'undefined' || !window.document) return;
+
+  // ---------------------------------------------------------------- navegador: leer el nivel del motor
+  const CFG = window.__AYUDAS || {};
+  const ICONOS = window.__AYUDAS_ICONOS || {};
+  const PALO = { cr: 'H', rd: 'H', cg: 'C', gd: 'C', cb: 'D', bd: 'D', cv: 'S', vd: 'S', cc: 'A', cd: 'A', cy: 'Y', yd: 'Y', cn: 'N' };
+  const META = { tr: 'H', tg: 'C', tb: 'D', tv: 'S', tc: 'A', ty: 'Y' };
+  const IMAN = { magnet_u: 0, magnet_r: 1, magnet_d: 2, magnet_l: 3 };
+  const INTERRUPTOR = { magswitch: 0, magswitch_r: 1, magswitch_d: 2, magswitch_l: 3 };
+  const B = (...ds) => ds.reduce((a, d) => a | (1 << d), 0);
+  const VIA = { rail_h: [B(0, 1), B(0, 1)], rail_v: [B(2, 3), B(2, 3)], rail_t_lru: [B(0), B(1)], rail_t_lrd: [B(1), B(0)], rail_t_udl: [B(2), B(3)], rail_t_udr: [B(3), B(2)] };
+  // piezas cuyas reglas el modelo NO sabe: si el nivel tiene alguna, no hay pista
+  const NO_SOPORTADAS = /^(p[rgbyvt][12]|fragilefloor|blackhole|conv[rlud]|mud|rail_l_|sleep[ab]|enemy|ghost|guard|hound|turtle|clone|key|lock|door|sensor|andswitch|orswitch|notswitch|lever|time|lazy|mem|nand|cam|tina|pad|bomb|heavybox|shybox|whistle|odisea|swaplever)/;
+  const OCULTAR = ['player', 'auraa', 'aurab', 'sleepa', 'sleepb', 'heavybox', 'shybox', 'bomb', 'cambox', 'camn', 'camr', 'camg'].concat(Object.keys(PALO));
+
+  function nombresEn(L, x, y) {
+    const cell = L.getCell(x * L.height + y), out = [];
+    for (let id = 0; id < state.objectCount; id++) if (cell.get(id)) out.push(state.idDict[id].toLowerCase());
+    return out;
+  }
+  function leerNivel(L) {
+    const W = L.width, H = L.height, capa = state.objects.player.layer;
+    const celdas = [], e = { p: -1, cajas: [], palos: [], rot: 0 };
+    let raras = [], imanes = [];
+    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+      const c = y * W + x, k = { macizo: 0, hielo: 0, via: null, meta: '', iman: null, interruptor: false };
+      for (const nm of nombresEn(L, x, y)) {
+        const o = state.objects[nm];
+        if (nm === 'player') e.p = c;
+        else if (PALO[nm]) { e.cajas.push(c); e.palos.push(PALO[nm]); }
+        else if (META[nm]) k.meta = META[nm];
+        else if (nm === 'icefloor') k.hielo = 1;
+        else if (VIA[nm]) k.via = VIA[nm];
+        else if (IMAN[nm] != null) { k.macizo = 1; imanes.push([c, IMAN[nm]]); }
+        else if (INTERRUPTOR[nm] != null) { k.interruptor = true; e.rot = INTERRUPTOR[nm]; }
+        else if (NO_SOPORTADAS.test(nm)) raras.push(nm);
+        else if (o && o.layer === capa) k.macizo = 1;              // muro, cifras del contador, adornos macizos...
+      }
+      celdas.push(k);
+    }
+    for (const [c, dir] of imanes) celdas[c].iman = (dir - e.rot + 4) % 4;   // dirección con el giro 0
+    return { desc: { W, H, celdas }, estado: e, raras };
+  }
+
+  // ---------------------------------------------------------------- la pista: camino guardado + vuelta + deshacer
+  const LETRA = 'UDLR', TECLA = [38, 40, 37, 39];
+  let PISTA = null;                                                // { nivel, M, camino: Map(clave -> índice) }
+  function prepararPista() {
+    if (PISTA && PISTA.nivel === curLevelNo) return PISTA;
+    PISTA = { nivel: curLevelNo, ok: false };
+    const cinta = String(CFG.cinta || '');
+    const ini = state.levels[curLevelNo];
+    if (!cinta || !ini || !ini.getCell) return PISTA;
+    const { desc, estado, raras } = leerNivel(ini);
+    if (raras.length || estado.p < 0) { PISTA.motivo = 'piezas sin modelo: ' + raras.join(','); return PISTA; }
+    const M = crearModelo(desc), camino = new Map();
+    let e = estado;
+    camino.set(clave(e), 0);
+    for (let i = 0; i < cinta.length; i++) {
+      const [r, e2] = mover(M, e, LETRA.indexOf(cinta[i]));
+      if (!r) { PISTA.motivo = 'la cinta choca en la tecla ' + (i + 1); return PISTA; }
+      e = e2;
+      camino.set(clave(e), i + 1);   // la ÚLTIMA vez que pasa por ahí: si el camino se repite, nunca vuelve atrás
+    }
+    if (!gana(M, e)) { PISTA.motivo = 'la cinta no gana'; return PISTA; }
+    Object.assign(PISTA, { ok: true, M, camino, cinta });
+    return PISTA;
+  }
+  function enPartida() {
+    return typeof curLevel !== 'undefined' && curLevel && !titleScreen && !textMode && !winning
+      && curLevel.width === state.levels[curLevelNo].width;
+  }
+  function pulsar(codigo) {
+    const ev = { keyCode: codigo, which: codigo, key: '', preventDefault() {}, stopPropagation() {}, stopImmediatePropagation() {} };
+    onKeyDown(ev); onKeyUp(ev);
+  }
+  function pista() {
+    if (!enPartida() || againing) return;
+    const P = prepararPista();
+    if (!P.ok) { aviso('La pista no está disponible en este nivel'); return; }
+    const e = leerNivel(curLevel).estado;
+    if (gana(P.M, e)) return;
+    const k = clave(e);
+    if (P.camino.has(k)) { pulsar(TECLA[LETRA.indexOf(P.cinta[P.camino.get(k)])]); return; }
+    const vuelta = buscarVuelta(P.M, e, P.camino, 250000, 900);
+    if (vuelta && vuelta.length) { pulsar(TECLA[vuelta[0]]); return; }
+    aviso('Por aquí no hay salida: deshago un movimiento');
+    pulsar(90);
+  }
+
+  // ---------------------------------------------------------------- el ojo: no dibujar cajas ni mozo
+  let guardadas = null;
+  function ojo(encendido) {
+    if (encendido) {
+      if (guardadas || !enPartida() || typeof spriteImages === 'undefined') return;
+      guardadas = [];
+      for (const nm of OCULTAR) {
+        const o = state.objects[nm], img = o && spriteImages[o.id];
+        if (!img) continue;
+        const vacia = document.createElement('canvas');
+        vacia.width = img.width; vacia.height = img.height;
+        guardadas.push([o.id, img, vacia]);
+        spriteImages[o.id] = vacia;
+      }
+    } else {
+      if (!guardadas) return;
+      for (const [id, img, vacia] of guardadas) if (spriteImages[id] === vacia) spriteImages[id] = img;
+      guardadas = null;
+    }
+    try { redraw(); } catch (err) {}
+  }
+
+  // ---------------------------------------------------------------- la barra de botones
+  const css = document.createElement('style');
+  css.textContent = `
+.ay-barra{position:fixed;top:8px;right:56px;z-index:30;display:flex;gap:8px}
+.ay-boton{width:40px;height:40px;border-radius:50%;border:2px solid #1f3a63;background:#fff;color:#1f3a63;display:grid;place-items:center;
+  cursor:pointer;box-shadow:0 3px 0 #c8d3e6;padding:0;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.ay-boton:hover{background:#f4f7fc}
+.ay-boton:focus-visible{outline:3px solid #c98a12;outline-offset:2px}
+.ay-boton svg{width:22px;height:22px;display:block;pointer-events:none}
+.ay-boton.ay-activo{background:#1f3a63;color:#fff3d6}
+.ay-aviso{position:fixed;top:56px;right:16px;z-index:31;max-width:min(320px,calc(100vw - 32px));background:#1f3a63;color:#fff3d6;
+  font:600 14px/1.4 system-ui,-apple-system,'Segoe UI',sans-serif;padding:8px 12px;border-radius:10px;box-shadow:0 3px 0 #0f1f38;
+  opacity:0;transition:opacity .2s;pointer-events:none}
+.ay-aviso.ay-ver{opacity:1}
+@media (max-width:760px){.ay-barra{top:54px;right:10px}.ay-boton{width:40px;height:40px}.ay-aviso{top:104px}}`;   /* móvil: 2.ª fila, bajo el título */
+  document.head.appendChild(css);
+  const barra = document.createElement('div');
+  barra.className = 'ay-barra';
+  barra.setAttribute('role', 'toolbar');
+  barra.setAttribute('aria-label', 'Ayudas');
+  const mkBoton = (cls, titulo, svg) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'ay-boton ' + cls; b.title = titulo; b.setAttribute('aria-label', titulo);
+    b.innerHTML = svg || '';
+    barra.appendChild(b);
+    return b;
+  };
+  const bOjo = mkBoton('ay-ojo', 'Ver lo que tapan las cajas y el mozo (pasa el ratón por encima o mantén el dedo)', ICONOS.ojo);
+  const bReiniciar = mkBoton('ay-reiniciar', 'Empezar de nuevo', ICONOS.reiniciar);
+  const bPista = mkBoton('ay-pista', 'Pista: un movimiento hacia la solución', ICONOS.pista);
+  const avisoEl = document.createElement('div');
+  avisoEl.className = 'ay-aviso';
+  avisoEl.setAttribute('role', 'status');
+  let avisoT = 0;
+  function aviso(txt) {
+    avisoEl.textContent = txt;
+    avisoEl.classList.add('ay-ver');
+    clearTimeout(avisoT);
+    avisoT = setTimeout(() => avisoEl.classList.remove('ay-ver'), 2200);
+  }
+  // que nada de la barra llegue al lienzo del juego
+  ['mousedown', 'mouseup', 'touchstart', 'touchend', 'touchmove', 'pointerdown', 'pointerup', 'click', 'contextmenu'].forEach((t) =>
+    barra.addEventListener(t, (ev) => { ev.stopPropagation(); if (t === 'contextmenu') ev.preventDefault(); }, { passive: t === 'contextmenu' ? false : true }));
+  // ojo: ratón encima, o dedo/lápiz apoyado
+  const ojoOn = () => { bOjo.classList.add('ay-activo'); ojo(true); };
+  const ojoOff = () => { bOjo.classList.remove('ay-activo'); ojo(false); };
+  bOjo.addEventListener('pointerenter', (ev) => { if (ev.pointerType === 'mouse') ojoOn(); });
+  bOjo.addEventListener('pointerleave', (ev) => { if (ev.pointerType === 'mouse') ojoOff(); });
+  bOjo.addEventListener('pointerdown', (ev) => { if (ev.pointerType !== 'mouse') { ojoOn(); try { bOjo.setPointerCapture(ev.pointerId); } catch (err) {} } });
+  ['pointerup', 'pointercancel'].forEach((t) => bOjo.addEventListener(t, (ev) => { if (ev.pointerType !== 'mouse') ojoOff(); }));
+  bOjo.addEventListener('keydown', (ev) => { if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); ojoOn(); } });
+  bOjo.addEventListener('keyup', (ev) => { if (ev.key === ' ' || ev.key === 'Enter') ojoOff(); });
+  bOjo.addEventListener('blur', ojoOff);
+  bReiniciar.addEventListener('click', () => { bReiniciar.blur(); if (enPartida()) pulsar(82); });
+  bPista.addEventListener('click', () => { bPista.blur(); pista(); });
+  document.body.appendChild(barra);
+  document.body.appendChild(avisoEl);
+  window.__ayudas = { pista, ojo, prepararPista, leerNivel, NUCLEO };
+})();
+
 </script>
 </body>
 </html>

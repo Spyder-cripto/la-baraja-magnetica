@@ -16,6 +16,8 @@ tarjetas ilustradas con todas las reglas.
 - **Imanes:** clavan la casilla a la que miran sus polos; la caja que está ahí no se mueve (sí puede entrar otra).
 - **Interruptor:** camina contra el sol del muro de arriba para girar todos los imanes un cuarto de vuelta; no cuesta pasos.
 - **Contador de pasos:** empieza en 0 con una sola cifra y crece (decenas a los 10, centenas a los 100, millares a los 1000).
+- **Ayudas** (arriba a la derecha): el **ojo** esconde cajas y mozo mientras lo señalas, para ver lo que tapan;
+  **reiniciar**; y la **pista**, que da un movimiento hacia la solución en cada pulsación.
 - Dentro del juego, el botón **«Cómo se juega»** abre las tarjetas con las reglas y las piezas.
 
 **El reto:** llevar cada caja a su sitio con los menos pasos posibles.
